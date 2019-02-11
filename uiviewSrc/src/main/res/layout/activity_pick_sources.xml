@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.uiviewsrc.PickSources">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Up Source"
+        android:layout_marginBottom="15dp"/>
+
+    <RadioGroup
+        android:id="@+id/pickgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/mock">
+        <RadioButton
+            android:id="@+id/mock"
+            android:text="Mock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/api"
+            android:text="API"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/submit_pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO"/>
+
+</LinearLayout>

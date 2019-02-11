@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".Environments">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Environment"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/selected"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Dev"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/uat"
+        android:layout_width="match_parent"
+        android:background="@color/unselected"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="UAT"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/selected_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Dev"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/submit_env"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

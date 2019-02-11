@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">weatherApp</string>
+    <string name="title_activity_wather_main_view">Wather</string>
+
+
+
+
+    <!--DetailStr-->
+    <string name="nearestdis">Nearest Storm Distance : %s</string>
+    <string name="nearestbea">Nearest Storm Bearing : %s</string>
+    <string name="pint">Precip Intensity : %s</string>
+    <string name="pprob">Precip Probability : %s</string>
+    <string name="temp">Temperature : %s</string>
+    <string name="atemp">ApparentTemperature : %s</string>
+    <string name="dpoint">Dew Point : %s</string>
+    <string name="humi">Humidity : %s</string>
+    <string name="prs">Pressure : %s</string>
+    <string name="wspeed">Wind Speed : %s</string>
+    <string name="wgust">Wind Gust : %s</string>
+    <string name="wbea">Wind Bearing : %s</string>
+    <string name="ccover">Cloud Cover : %s</string>
+    <string name="uindex">UV Index : %s</string>
+    <string name="vis">Visibility : %s</string>
+    <string name="ozone">Ozone : %s</string>
+
+</resources>
